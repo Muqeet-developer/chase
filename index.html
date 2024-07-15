@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessboard with Images</title>
+    <style>
+        .chessboard {
+            display: grid;
+            grid-template-columns: repeat(8, 60px);
+            grid-template-rows: repeat(8, 60px);
+            gap: 0;
+        }
+        .chessboard .box {
+            width: 60px;
+            height: 60px;
+            background-size: cover;
+        }
+        .chessboard .black {
+            background-color: black;
+            background-image: url('path/to/black_square_image.jpg');
+        }
+        .chessboard .white {
+            background-image: url('path/to/white_square_image.jpg');
+        }
+    </style>
+</head>
+<body>
+    <div class="chessboard">
+        <!-- Generating 64 boxes with alternating classes -->
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+        <div class="box black"></div>
+        <div class="box white"></div>
+    </div>
+</body>
+</html>
